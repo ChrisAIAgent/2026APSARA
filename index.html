@@ -1,0 +1,272 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#dff4f2" />
+    <meta
+      name="description"
+      content="从杭州国际博览中心一期网约车落客点，步行引导至 3F 大宴会厅 C。"
+    />
+    <title>从一期落客点到大宴会厅 C｜2026 云栖大会</title>
+  </head>
+  <body>
+    <div id="app">
+      <header class="topbar">
+        <a class="brand" href="#top" aria-label="返回页面顶部" data-i18n-aria-label="brandAria">
+          <img class="brand-logo" src="/assets/yunqi-logo.png" alt="APSARA 云栖大会" />
+        </a>
+        <nav class="top-nav" aria-label="页面导航" data-i18n-aria-label="pageNav">
+          <a href="#route" data-i18n="navRoute">路线</a>
+          <a href="#overview" data-i18n="navOverview">总览</a>
+          <a href="https://yunqi.aliyun.com/2026/guide" target="_blank" rel="noreferrer" data-i18n="navOfficial">官方指南</a>
+        </nav>
+        <div class="topbar-actions">
+          <span class="topbar-tag"><i></i> <span data-i18n="onsite">现场引导</span></span>
+          <div class="language-switch" role="group" aria-label="语言切换" data-i18n-aria-label="languageSwitch">
+            <button type="button" data-language="zh" aria-pressed="true">中</button>
+            <button type="button" data-language="en" aria-pressed="false">EN</button>
+          </div>
+        </div>
+      </header>
+
+      <main id="top">
+        <section class="hero section-shell" aria-labelledby="hero-title">
+          <div class="hero-copy">
+            <p class="eyebrow" data-i18n="heroEyebrow">杭州国际博览中心 · 一期</p>
+            <h1 id="hero-title" data-i18n-html="heroTitle">
+              从一期网约车落客点<br />
+              <span>到大宴会厅 C</span>
+            </h1>
+            <p class="hero-lead" data-i18n="heroLead">
+              下车后，先找到一期签到处；入场后上到 3F，沿着现场导视就能到达大宴会厅 C。
+            </p>
+            <div class="hero-actions">
+              <a class="button button-primary" href="#route">
+                <span data-i18n="startGuide">开始引导</span> <span aria-hidden="true">↓</span>
+              </a>
+              <button class="button button-secondary" type="button" data-copy="云栖大会网约车落客点·一期" data-i18n="copyDropoff">
+                复制落客点名称
+              </button>
+            </div>
+            <p class="source-note">
+              <span class="source-dot"></span>
+              <span data-i18n="sourceNote">路线信息已按云栖大会官方参会指南核对</span>
+            </p>
+          </div>
+
+          <div class="hero-visual" aria-label="一期落客点与签到处官方示意图" data-i18n-aria-label="visualAria">
+            <div class="visual-orbit visual-orbit-one"></div>
+            <div class="visual-orbit visual-orbit-two"></div>
+            <figure class="map-card">
+              <div class="map-card-topline">
+                <span data-i18n="officialOverview">官方示意</span>
+                <span>01 / 04</span>
+              </div>
+              <img
+                src="/assets/yunqi-phase1-overview.webp"
+                alt="官方示意图：国博一期网约车落客点、一期签到处和杭州国际博览中心一期"
+                data-i18n-alt="overviewAlt"
+              />
+              <figcaption>
+                <span data-i18n="mapCaption">官方落客 / 签到示意</span>
+                <a href="https://yunqi.aliyun.com/2026/guide" target="_blank" rel="noreferrer" data-i18n="viewSource">
+                  查看来源 ↗
+                </a>
+              </figcaption>
+            </figure>
+            <div class="destination-pin">
+              <span class="pin-pulse"></span>
+              <span class="pin-label" data-i18n="destinationPin">3F · 大宴会厅 C</span>
+            </div>
+          </div>
+        </section>
+
+        <section class="quick-facts section-shell" aria-label="目的地信息" data-i18n-aria-label="quickFactsAria">
+          <div class="fact-card fact-card-main">
+            <span class="fact-label" data-i18n="factDestinationLabel">目的地</span>
+            <strong data-i18n="phase1Floor">国博一期 · 3F</strong>
+            <span data-i18n="hallC">大宴会厅 C</span>
+          </div>
+          <div class="fact-card">
+            <span class="fact-label" data-i18n="factFirstLabel">第一确认点</span>
+            <strong data-i18n="phase1Checkin">一期签到处</strong>
+            <span data-i18n="secondFloor">官方引导入口在二层</span>
+          </div>
+          <div class="fact-card">
+            <span class="fact-label" data-i18n="factImportantLabel">重要提示</span>
+            <strong data-i18n="identifyPhase1">认准“国博一期”</strong>
+            <span data-i18n="onsiteDirection">现场以导视和工作人员为准</span>
+          </div>
+        </section>
+
+        <section class="route-section section-shell" id="route" aria-labelledby="route-title">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow" data-i18n="routeEyebrow">跟着现场导视</p>
+              <h2 id="route-title" data-i18n="routeTitle">四个确认点，走到宴会厅 C</h2>
+            </div>
+            <div class="progress-summary" aria-live="polite">
+              <span data-progress-count>0 / 4</span>
+              <span data-i18n="confirmed">已确认</span>
+            </div>
+          </div>
+
+          <div class="progress-track" aria-hidden="true">
+            <span class="progress-fill"></span>
+          </div>
+
+          <div class="route-list">
+            <article class="route-step" data-step="dropoff">
+              <div class="step-index">01</div>
+              <div class="step-body">
+                <div class="step-kicker"><span class="step-status"></span> <span data-i18n="step1Kicker">START / 下车</span></div>
+                <h3 data-i18n="step1Title">一期网约车落客点</h3>
+                <p data-i18n="step1Body">
+                  下车时确认司机停靠在“云栖大会网约车落客点·一期”。不要跟着二期落客点或大巴落客点走。
+                </p>
+                <div class="photo-slot" data-photo-slot="dropoff">
+                  <div class="photo-slot-icon">01</div>
+                  <div>
+                    <strong data-i18n="photoDropoff">下车点实景</strong>
+                    <span data-i18n="photoPending">待补充客户现场照片</span>
+                  </div>
+                </div>
+                <label class="check-row">
+                  <input type="checkbox" data-checkpoint="dropoff" />
+                  <span class="check-box" aria-hidden="true"></span>
+                  <span data-i18n="checkDropoff">我已确认在一期落客点下车</span>
+                </label>
+              </div>
+            </article>
+
+            <div class="route-connector" aria-hidden="true"><span>→</span></div>
+
+            <article class="route-step" data-step="checkin">
+              <div class="step-index">02</div>
+              <div class="step-body">
+                <div class="step-kicker"><span class="step-status"></span> <span data-i18n="step2Kicker">LOOK FOR / 找入口</span></div>
+                <h3 data-i18n="step2Title">沿导视前往一期签到处</h3>
+                <p data-i18n="step2Body">
+                  下车后跟随“杭州国际博览中心一期 / 一期签到处”标识，前往一期入口。官方指南提示，一期入口在二层。
+                </p>
+                <div class="photo-slot" data-photo-slot="checkin">
+                  <div class="photo-slot-icon">02</div>
+                  <div>
+                    <strong data-i18n="photoCheckin">一期签到处实景</strong>
+                    <span data-i18n="photoPending">待补充客户现场照片</span>
+                  </div>
+                </div>
+                <label class="check-row">
+                  <input type="checkbox" data-checkpoint="checkin" />
+                  <span class="check-box" aria-hidden="true"></span>
+                  <span data-i18n="checkCheckin">我已找到一期签到处</span>
+                </label>
+              </div>
+            </article>
+
+            <div class="route-connector" aria-hidden="true"><span>→</span></div>
+
+            <article class="route-step" data-step="floor">
+              <div class="step-index">03</div>
+              <div class="step-body">
+                <div class="step-kicker"><span class="step-status"></span> <span data-i18n="step3Kicker">GO UP / 上楼</span></div>
+                <h3 data-i18n="step3Title">入场后前往 3F</h3>
+                <p data-i18n="step3Body">
+                  完成签到和入场核验后，跟随场馆内的楼层指引，乘扶梯或电梯前往 3F。优先寻找“3F / 大宴会厅”方向牌。
+                </p>
+                <div class="photo-slot" data-photo-slot="floor">
+                  <div class="photo-slot-icon">03</div>
+                  <div>
+                    <strong data-i18n="photoFloor">3F 导视实景</strong>
+                    <span data-i18n="photoPending">待补充客户现场照片</span>
+                  </div>
+                </div>
+                <label class="check-row">
+                  <input type="checkbox" data-checkpoint="floor" />
+                  <span class="check-box" aria-hidden="true"></span>
+                  <span data-i18n="checkFloor">我已到达 3F</span>
+                </label>
+              </div>
+            </article>
+
+            <div class="route-connector" aria-hidden="true"><span>→</span></div>
+
+            <article class="route-step route-step-final" data-step="hall">
+              <div class="step-index">04</div>
+              <div class="step-body">
+                <div class="step-kicker"><span class="step-status"></span> <span data-i18n="step4Kicker">ARRIVAL / 到达</span></div>
+                <h3 data-i18n="step4Title">大宴会厅 C</h3>
+                <p data-i18n-html="step4Body">
+                  在 3F 找到“大宴会厅 C”门头或现场指引牌。官网日程中的标准地点写法是：<strong>国博一期-3F-大宴会厅C</strong>。
+                </p>
+                <div class="photo-slot photo-slot-destination" data-photo-slot="hall">
+                  <div class="photo-slot-icon">04</div>
+                  <div>
+                    <strong data-i18n="photoHall">宴会厅 C 门头实景</strong>
+                    <span data-i18n="photoPending">待补充客户现场照片</span>
+                  </div>
+                </div>
+                <label class="check-row">
+                  <input type="checkbox" data-checkpoint="hall" />
+                  <span class="check-box" aria-hidden="true"></span>
+                  <span data-i18n="checkHall">我已到达大宴会厅 C</span>
+                </label>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section class="map-section section-shell" id="overview" aria-labelledby="map-title">
+          <div class="map-copy">
+            <p class="eyebrow" data-i18n="rememberEyebrow">记住这一件事</p>
+            <h2 id="map-title" data-i18n="mapTitle">先到一期，再上三楼</h2>
+            <p data-i18n="mapBody">
+              官方示意图同时标注了一期网约车落客点、一期签到处和杭州国际博览中心一期。到达后只要先认准一期入口，再按楼层导视走即可。
+            </p>
+            <div class="map-actions">
+              <button class="button button-primary" type="button" data-copy="云栖大会网约车落客点·一期" data-i18n="copyGaode">
+                复制高德搜索名称
+              </button>
+              <a class="button button-secondary" href="https://yunqi.aliyun.com/2026/guide" target="_blank" rel="noreferrer" data-i18n="officialGuide">
+                查看官方参会指南 ↗
+              </a>
+            </div>
+          </div>
+          <figure class="map-large-card">
+            <img
+              src="/assets/yunqi-phase1-overview.webp"
+              alt="云栖大会官方一期与二期交通、签到点示意图"
+              data-i18n-alt="mapAlt"
+              loading="lazy"
+            />
+            <figcaption data-i18n="mapLargeCaption">官方参会指南示意图 · 现场导视可能根据活动当日调整</figcaption>
+          </figure>
+        </section>
+
+        <section class="info-strip section-shell" aria-label="现场提示" data-i18n-aria-label="noticeAria">
+          <div class="info-strip-icon">!</div>
+          <div>
+            <strong data-i18n="noticeTitle">现场提示</strong>
+            <p data-i18n="noticeBody">大会入场需携带注册时使用的身份证件原件；最终路线请以当天导视牌和工作人员指引为准。</p>
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer section-shell">
+        <div>
+          <span class="footer-label">YUNQI 2026 / ON-SITE GUIDE</span>
+          <p data-i18n="footerPath">一期网约车落客点 → 一期签到处 → 3F → 大宴会厅 C</p>
+        </div>
+        <div class="footer-links">
+          <a href="https://yunqi.aliyun.com/2026/agenda" target="_blank" rel="noreferrer" data-i18n="officialAgenda">官方日程 ↗</a>
+          <a href="https://yunqi.aliyun.com/" target="_blank" rel="noreferrer" data-i18n="officialSite">云栖大会官网 ↗</a>
+        </div>
+      </footer>
+
+      <div class="toast" role="status" aria-live="polite" aria-hidden="true"></div>
+    </div>
+    <noscript>请开启 JavaScript 以使用复制地点和路线进度功能。</noscript>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
