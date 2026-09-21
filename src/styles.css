@@ -1,1 +1,73 @@
 @import url('./styles.generated.css');
+
+.floor-map {
+  margin-top: auto;
+  margin-right: 0;
+  margin-left: 0;
+  margin-bottom: 14px;
+  padding: 10px;
+  overflow: hidden;
+  border: 1px solid rgba(65, 111, 202, .18);
+  border-radius: 15px;
+  background: linear-gradient(135deg, rgba(65, 111, 202, .055), rgba(115, 211, 191, .08));
+}
+
+.floor-map-topline,
+.floor-map-caption {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  color: var(--muted);
+  font-size: 9px;
+  font-weight: 800;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+}
+
+.floor-map-topline { padding: 2px 2px 8px; }
+.floor-map-caption { padding: 8px 2px 1px; letter-spacing: .02em; text-transform: none; }
+.floor-map-caption span:last-child { color: var(--orange-deep); }
+
+.floor-map svg {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1px solid rgba(65, 111, 202, .13);
+  border-radius: 10px;
+}
+
+.floor-map-image img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1px solid rgba(65, 111, 202, .13);
+  border-radius: 10px;
+}
+
+.map-surface { fill: rgba(255, 255, 255, .72); }
+.map-grid { fill: none; stroke: rgba(65, 111, 202, .08); stroke-width: 1; }
+.map-zone { fill: rgba(115, 211, 191, .18); stroke: rgba(39, 104, 216, .28); stroke-width: 1.2; }
+.map-zone-dark { fill: var(--ink); stroke: var(--ink); }
+.map-road { fill: rgba(10, 20, 38, .1); }
+.map-zone-label,
+.map-zone-sub,
+.map-road-label,
+.map-point-label {
+  font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft YaHei", sans-serif;
+}
+.map-zone-label { fill: var(--ink); font-size: 8px; font-weight: 800; }
+.map-zone-label-light { fill: var(--white); }
+.map-zone-sub { fill: var(--blue); font-size: 6px; font-weight: 800; letter-spacing: .12em; }
+.map-zone-sub-light { fill: rgba(255, 255, 255, .62); }
+.map-road-label { fill: rgba(10, 20, 38, .52); font-size: 6px; font-weight: 800; letter-spacing: .1em; }
+.map-route { fill: none; stroke: var(--orange); stroke-width: 3; stroke-linecap: round; stroke-dasharray: 1 7; }
+.map-arrow { fill: none; stroke: var(--orange); stroke-width: 3; stroke-linecap: round; stroke-linejoin: round; }
+.map-point-halo { fill: rgba(243, 108, 61, .18); }
+.map-point { fill: var(--orange); stroke: var(--white); stroke-width: 2; }
+.map-point-label { fill: var(--orange-deep); font-size: 8px; font-weight: 800; }
+
+@media (max-width: 720px) {
+  .floor-map { margin-bottom: 12px; padding: 9px; }
+  .floor-map-caption { font-size: 10px; }
+}
