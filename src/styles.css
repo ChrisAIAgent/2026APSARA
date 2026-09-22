@@ -81,6 +81,28 @@
   margin-top: 12px;
 }
 
+.photo-gallery-photo-card {
+  display: grid;
+  gap: 7px;
+  margin: 0;
+  padding: 8px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, .48);
+}
+
+.photo-gallery-photo-index {
+  color: var(--orange-deep);
+  font-size: 10px;
+  font-weight: 900;
+  letter-spacing: .1em;
+}
+
+.photo-gallery-photo-card figcaption {
+  color: var(--ink-soft);
+  font-size: 11px;
+  line-height: 1.45;
+}
+
 .photo-gallery-placeholder {
   display: flex;
   align-items: center;

@@ -138,9 +138,9 @@
               <div class="step-index">01</div>
               <div class="step-body">
                 <div class="step-kicker"><span class="step-status"></span> <span data-i18n="step1Kicker">START / 下车</span></div>
-                <h3 data-i18n="step1Title">一期网约车落客点</h3>
+                <h3 data-i18n="step1Title">从落客点到 2F 入口</h3>
                 <p data-i18n="step1Body">
-                  下车时确认司机停靠在“云栖大会网约车落客点·一期”。不要跟着二期落客点或大巴落客点走。
+                  确认在一期网约车落客点下车，沿场馆入口方向前行，找到观光电梯 AB 区入口，进入一期并前往 2F。
                 </p>
                 <figure class="floor-map floor-map-image">
                   <div class="floor-map-topline">
@@ -162,20 +162,36 @@
                     <div class="photo-slot-icon">01</div>
                     <div>
                       <strong data-i18n="photoDropoff">下车点实景</strong>
-                      <span data-i18n="photoGalleryHint">照片按顺序向下排列</span>
+                      <span data-i18n="photoGalleryHint">按照片顺序向下查看</span>
                     </div>
                   </div>
                   <div class="photo-gallery-list" data-photo-list>
-                    <div class="photo-gallery-placeholder" data-photo-placeholder>
-                      <span class="photo-gallery-placeholder-mark">01</span>
-                      <span data-i18n="photoPending">待补充客户现场照片</span>
-                    </div>
+                    <figure class="photo-gallery-photo-card">
+                      <div class="photo-gallery-photo-index">01</div>
+                      <img class="photo-gallery-photo" src="/assets/photo/step-01-dropoff-01.png" alt="下车点：面向一期场馆入口" data-i18n-alt="dropoffPhoto01" />
+                      <figcaption data-i18n="dropoffPhoto01">下车点：面向一期场馆入口</figcaption>
+                    </figure>
+                    <figure class="photo-gallery-photo-card">
+                      <div class="photo-gallery-photo-index">02</div>
+                      <img class="photo-gallery-photo" src="/assets/photo/step-01-dropoff-02.png" alt="沿落客区路缘向入口方向前行" data-i18n-alt="dropoffPhoto02" />
+                      <figcaption data-i18n="dropoffPhoto02">沿落客区路缘向入口方向前行</figcaption>
+                    </figure>
+                    <figure class="photo-gallery-photo-card">
+                      <div class="photo-gallery-photo-index">03</div>
+                      <img class="photo-gallery-photo" src="/assets/photo/step-01-dropoff-03.png" alt="找到观光电梯 AB 区入口" data-i18n-alt="dropoffPhoto03" />
+                      <figcaption data-i18n="dropoffPhoto03">找到观光电梯 AB 区入口</figcaption>
+                    </figure>
+                    <figure class="photo-gallery-photo-card">
+                      <div class="photo-gallery-photo-index">04</div>
+                      <img class="photo-gallery-photo" src="/assets/photo/step-01-dropoff-04.png" alt="进入大厅后，找到前方扶梯" data-i18n-alt="dropoffPhoto04" />
+                      <figcaption data-i18n="dropoffPhoto04">进入大厅后，找到前方扶梯</figcaption>
+                    </figure>
                   </div>
                 </div>
                 <label class="check-row">
                   <input type="checkbox" data-checkpoint="dropoff" />
                   <span class="check-box" aria-hidden="true"></span>
-                  <span data-i18n="checkDropoff">我已确认在一期落客点下车</span>
+                  <span data-i18n="checkDropoff">我已到达 2F 入口</span>
                 </label>
               </div>
             </article>
@@ -185,57 +201,81 @@
             <article class="route-step" data-step="checkin">
               <div class="step-index">02</div>
               <div class="step-body">
-                <div class="step-kicker"><span class="step-status"></span> <span data-i18n="step2Kicker">WALK TO CHECK-IN / 前往签到处</span></div>
-                <h3 data-i18n="step2Title">下车前往一期签到处</h3>
+                <div class="step-kicker"><span class="step-status"></span> <span data-i18n="step2Kicker">CHECK IN / 签到安检</span></div>
+                <h3 data-i18n="step2Title">2F 完成签到、安检并前往 3F</h3>
                 <p data-i18n="step2Body">
-                  从网约车落客点下车后，沿着“杭州国际博览中心一期 / 一期签到处”标识前行，先到一期签到处。
+                  到达 2F 后左转，沿通道前往一期签到处；出示门票扫码完成安检，进门后按 Logo 墙和蓝色地贴指引，找到上行扶梯前往 3F。
                 </p>
                 <div class="floor-map">
                   <div class="floor-map-topline">
-                    <span data-i18n="mapPlanLabel">路线示意</span>
+                    <span data-i18n="mapFloorPlanLabel">2F 平面图</span>
                     <span>02 / 04</span>
                   </div>
-                  <svg viewBox="0 0 320 150" role="img" aria-label="一期签到处路线示意图，签到点已标记" data-i18n-aria-label="mapCheckinAria">
-                    <rect class="map-surface" x="0" y="0" width="320" height="150" rx="12" />
-                    <path class="map-grid" d="M18 30H302M18 60H302M18 90H302M18 120H302M55 15V135M92 15V135M129 15V135M166 15V135M203 15V135M240 15V135M277 15V135" />
-                    <rect class="map-zone" x="18" y="19" width="99" height="104" rx="8" />
-                    <text class="map-zone-label" x="34" y="48" data-i18n="mapCheckinTitle">一期签到处</text>
-                    <text class="map-zone-sub" x="34" y="68">CHECK-IN</text>
-                    <rect class="map-zone map-zone-dark" x="163" y="34" width="65" height="47" rx="7" />
-                    <text class="map-zone-label map-zone-label-light" x="178" y="61">ENTRY</text>
-                    <rect class="map-zone" x="252" y="25" width="50" height="67" rx="7" />
-                    <text class="map-zone-label" x="261" y="54">1F</text>
-                    <text class="map-zone-sub" x="258" y="70">IN</text>
-                    <path class="map-route" d="M68 122C91 104 111 93 135 89S181 82 196 65S226 53 259 55" />
-                    <path class="map-arrow" d="M253 49L264 55L253 61" />
-                    <circle class="map-point-halo" cx="68" cy="122" r="13" />
-                    <circle class="map-point" cx="68" cy="122" r="6" />
-                    <text class="map-point-label" x="42" y="108" data-i18n="mapPoint">落点</text>
-                  </svg>
+                  <div class="floor-map-image">
+                    <img
+                      src="/assets/guide/phase1-checkin-floorplan.jpg"
+                      alt="2F 平面图，前往签到处和上行扶梯的路线已标记"
+                      data-i18n-alt="mapSecondFloorImageAlt"
+                      role="img"
+                      aria-label="2F 平面图，前往签到处和上行扶梯的路线已标记"
+                      data-i18n-aria-label="mapSecondFloorAria"
+                    />
+                  </div>
                   <div class="floor-map-caption">
-                    <span data-i18n="mapCheckinTitle">一期签到处</span>
-                    <span data-i18n="mapCheckinNext">签到</span>
+                    <span data-i18n="mapSecondFloorTitle">2F 路线与上楼点</span>
+                    <span data-i18n="mapSecondFloorNext">上行扶梯 → 3F</span>
                   </div>
                 </div>
                 <div class="photo-gallery" data-photo-slot="checkin">
                   <div class="photo-gallery-heading">
                     <div class="photo-slot-icon">02</div>
                     <div>
-                      <strong data-i18n="photoCheckin">一期签到处实景</strong>
-                      <span data-i18n="photoGalleryHint">照片按顺序向下排列</span>
+                      <strong data-i18n="photoCheckin">2F 签到与上楼路径</strong>
+                      <span data-i18n="photoGalleryHint">按照片顺序向下查看</span>
                     </div>
                   </div>
                   <div class="photo-gallery-list" data-photo-list>
-                    <div class="photo-gallery-placeholder" data-photo-placeholder>
-                      <span class="photo-gallery-placeholder-mark">02</span>
-                      <span data-i18n="photoPending">待补充客户现场照片</span>
-                    </div>
+                    <figure class="photo-gallery-photo-card">
+                      <div class="photo-gallery-photo-index">05</div>
+                      <img class="photo-gallery-photo" src="/assets/photo/step-01-dropoff-05.png" alt="到达 2F 后左转" data-i18n-alt="dropoffPhoto05" />
+                      <figcaption data-i18n="dropoffPhoto05">到达 2F 后左转</figcaption>
+                    </figure>
+                    <figure class="photo-gallery-photo-card">
+                      <div class="photo-gallery-photo-index">06</div>
+                      <img class="photo-gallery-photo" src="/assets/photo/step-01-dropoff-06.png" alt="直行至路口，再左转" data-i18n-alt="dropoffPhoto06" />
+                      <figcaption data-i18n="dropoffPhoto06">直行至路口，再左转</figcaption>
+                    </figure>
+                    <figure class="photo-gallery-photo-card">
+                      <div class="photo-gallery-photo-index">07</div>
+                      <img class="photo-gallery-photo" src="/assets/photo/step-01-dropoff-07.png" alt="左转后直行，看到一期签到处入口" data-i18n-alt="dropoffPhoto07" />
+                      <figcaption data-i18n="dropoffPhoto07">左转后直行，看到一期签到处入口</figcaption>
+                    </figure>
+                    <figure class="photo-gallery-photo-card">
+                      <div class="photo-gallery-photo-index">08</div>
+                      <img class="photo-gallery-photo" src="/assets/photo/step-01-dropoff-08.png" alt="出示门票扫码，进入签到处安检" data-i18n-alt="dropoffPhoto08" />
+                      <figcaption data-i18n="dropoffPhoto08">出示门票扫码，进入签到处安检</figcaption>
+                    </figure>
+                    <figure class="photo-gallery-photo-card">
+                      <div class="photo-gallery-photo-index">09</div>
+                      <img class="photo-gallery-photo" src="/assets/photo/step-01-dropoff-09.png" alt="进门后左转" data-i18n-alt="dropoffPhoto09" />
+                      <figcaption data-i18n="dropoffPhoto09">进门后左转</figcaption>
+                    </figure>
+                    <figure class="photo-gallery-photo-card">
+                      <div class="photo-gallery-photo-index">10</div>
+                      <img class="photo-gallery-photo" src="/assets/photo/step-01-dropoff-10.png" alt="看到 Logo 墙后右转" data-i18n-alt="dropoffPhoto10" />
+                      <figcaption data-i18n="dropoffPhoto10">看到 Logo 墙后右转</figcaption>
+                    </figure>
+                    <figure class="photo-gallery-photo-card">
+                      <div class="photo-gallery-photo-index">11</div>
+                      <img class="photo-gallery-photo" src="/assets/photo/step-01-dropoff-11.png" alt="找到上行扶梯，前往 3F" data-i18n-alt="dropoffPhoto11" />
+                      <figcaption data-i18n="dropoffPhoto11">找到上行扶梯，前往 3F</figcaption>
+                    </figure>
                   </div>
                 </div>
                 <label class="check-row">
                   <input type="checkbox" data-checkpoint="checkin" />
                   <span class="check-box" aria-hidden="true"></span>
-                  <span data-i18n="checkCheckin">我已找到一期签到处</span>
+                  <span data-i18n="checkCheckin">我已完成签到并找到上行扶梯</span>
                 </label>
               </div>
             </article>
@@ -245,50 +285,71 @@
             <article class="route-step" data-step="floor">
               <div class="step-index">03</div>
               <div class="step-body">
-                <div class="step-kicker"><span class="step-status"></span> <span data-i18n="step3Kicker">GO UP / 上楼</span></div>
-                <h3 data-i18n="step3Title">签到处前往 1F 扶梯，上三楼</h3>
+                <div class="step-kicker"><span class="step-status"></span> <span data-i18n="step3Kicker">FOLLOW THE BLUE ROUTE / 沿蓝色路线</span></div>
+                <h3 data-i18n="step3Title">3F 沿蓝色地贴前往大宴会厅 C</h3>
                 <p data-i18n="step3Body">
-                  完成签到后，从签到处沿导视前往 1F 扶梯或电梯，再上到 3F。
+                  出扶梯后直行，找到“大宴会厅 A-D”蓝色地贴，依照 3F 地标转向，沿蓝色路线前往大宴会厅 C。
                 </p>
                 <div class="floor-map">
                   <div class="floor-map-topline">
-                    <span data-i18n="mapFloorPlanLabel">1F 平面图</span>
+                    <span data-i18n="mapHallPlanLabel">3F 平面图</span>
                     <span>03 / 04</span>
                   </div>
                   <div class="floor-map-image">
                     <img
-                      src="/assets/guide/phase1-checkin-floorplan.jpg"
-                      alt="1F 平面图，前往扶梯和三楼的路线已标记"
+                      src="/assets/guide/phase1-3f-ballroom-c-floorplan.jpg"
+                      alt="3F 平面图，绿色路线通往大宴会厅 C"
                       data-i18n-alt="mapFloorImageAlt"
                       role="img"
-                      aria-label="1F 平面图，前往扶梯上三楼的路线已标记"
+                      aria-label="3F 平面图，前往大宴会厅 C 的路线和到达点已标记"
                       data-i18n-aria-label="mapFloorAria"
                     />
                   </div>
                   <div class="floor-map-caption">
-                    <span data-i18n="mapFloorTitle">1F 平面图</span>
-                    <span data-i18n="mapFloorNext">扶梯上 3F</span>
+                    <span data-i18n="mapFloorTitle">3F 路线至大宴会厅 C</span>
+                    <span data-i18n="mapFloorNext">沿绿色路线前进</span>
                   </div>
                 </div>
                 <div class="photo-gallery" data-photo-slot="floor">
                   <div class="photo-gallery-heading">
                     <div class="photo-slot-icon">03</div>
                     <div>
-                      <strong data-i18n="photoFloor">3F 导视实景</strong>
-                      <span data-i18n="photoGalleryHint">照片按顺序向下排列</span>
+                      <strong data-i18n="photoFloor">3F 前往宴会厅 C 路径</strong>
+                      <span data-i18n="photoGalleryHint">按照片顺序向下查看</span>
                     </div>
                   </div>
                   <div class="photo-gallery-list" data-photo-list>
-                    <div class="photo-gallery-placeholder" data-photo-placeholder>
-                      <span class="photo-gallery-placeholder-mark">03</span>
-                      <span data-i18n="photoPending">待补充客户现场照片</span>
-                    </div>
+                    <figure class="photo-gallery-photo-card">
+                      <div class="photo-gallery-photo-index">01</div>
+                      <img class="photo-gallery-photo" src="/assets/photo/step-04-3f-route-01.png" alt="到达 3F 后出扶梯直行" data-i18n-alt="route3fPhoto01" />
+                      <figcaption data-i18n="route3fPhoto01">到达 3F 后出扶梯直行</figcaption>
+                    </figure>
+                    <figure class="photo-gallery-photo-card">
+                      <div class="photo-gallery-photo-index">02</div>
+                      <img class="photo-gallery-photo" src="/assets/photo/step-04-3f-route-02.png" alt="沿蓝色路线前往大宴会厅 A-D" data-i18n-alt="route3fPhoto02" />
+                      <figcaption data-i18n="route3fPhoto02">沿蓝色路线前往大宴会厅 A-D</figcaption>
+                    </figure>
+                    <figure class="photo-gallery-photo-card">
+                      <div class="photo-gallery-photo-index">03</div>
+                      <img class="photo-gallery-photo" src="/assets/photo/step-04-3f-route-03.png" alt="跟随 3F 地标直行后右转" data-i18n-alt="route3fPhoto03" />
+                      <figcaption data-i18n="route3fPhoto03">跟随 3F 地标直行后右转</figcaption>
+                    </figure>
+                    <figure class="photo-gallery-photo-card">
+                      <div class="photo-gallery-photo-index">04</div>
+                      <img class="photo-gallery-photo" src="/assets/photo/step-04-3f-route-04.png" alt="直行，宴会厅区域在左侧" data-i18n-alt="route3fPhoto04" />
+                      <figcaption data-i18n="route3fPhoto04">直行，宴会厅区域在左侧</figcaption>
+                    </figure>
+                    <figure class="photo-gallery-photo-card">
+                      <div class="photo-gallery-photo-index">05</div>
+                      <img class="photo-gallery-photo" src="/assets/photo/step-04-3f-route-05.png" alt="左转进入大宴会厅区域" data-i18n-alt="route3fPhoto05" />
+                      <figcaption data-i18n="route3fPhoto05">左转进入大宴会厅区域</figcaption>
+                    </figure>
                   </div>
                 </div>
                 <label class="check-row">
                   <input type="checkbox" data-checkpoint="floor" />
                   <span class="check-box" aria-hidden="true"></span>
-                  <span data-i18n="checkFloor">我已到达 3F</span>
+                  <span data-i18n="checkFloor">我已找到大宴会厅 C 方向</span>
                 </label>
               </div>
             </article>
@@ -299,43 +360,29 @@
               <div class="step-index">04</div>
               <div class="step-body">
                 <div class="step-kicker"><span class="step-status"></span> <span data-i18n="step4Kicker">ARRIVAL / 到达</span></div>
-                <h3 data-i18n="step4Title">大宴会厅 C</h3>
+                <h3 data-i18n="step4Title">到达大宴会厅 C</h3>
                 <p data-i18n-html="step4Body">
-                  到达 3F 后，沿绿色路线前往“大宴会厅 C”，找到门头或现场指引牌。官网日程中的标准地点写法是：<strong>国博一期-3F-大宴会厅C</strong>。
+                  看到大宴会厅 C 入口后，沿蓝色地贴进入厅内。官网日程中的标准地点写法是：<strong>国博一期-3F-大宴会厅C</strong>。
                 </p>
-                <div class="floor-map">
-                  <div class="floor-map-topline">
-                    <span data-i18n="mapHallPlanLabel">3F 平面图</span>
-                    <span>04 / 04</span>
-                  </div>
-                  <div class="floor-map-image floor-map-image-focus">
-                    <img
-                      src="/assets/guide/phase1-3f-ballroom-c-floorplan.jpg"
-                      alt="3F 平面图，大宴会厅 C 到达点已标记"
-                      data-i18n-alt="mapHallImageAlt"
-                      role="img"
-                      aria-label="3F 平面图，大宴会厅 C 到达点已标记"
-                      data-i18n-aria-label="mapHallAria"
-                    />
-                  </div>
-                  <div class="floor-map-caption">
-                    <span data-i18n="mapHallTitle">大宴会厅 C</span>
-                    <span data-i18n="mapHallNext">到达点</span>
-                  </div>
-                </div>
                 <div class="photo-gallery photo-gallery-destination" data-photo-slot="hall">
                   <div class="photo-gallery-heading">
                     <div class="photo-slot-icon">04</div>
                     <div>
-                      <strong data-i18n="photoHall">宴会厅 C 门头实景</strong>
-                      <span data-i18n="photoGalleryHint">照片按顺序向下排列</span>
+                      <strong data-i18n="photoHall">大宴会厅 C 到达现场</strong>
+                      <span data-i18n="photoGalleryHint">按照片顺序向下查看</span>
                     </div>
                   </div>
                   <div class="photo-gallery-list" data-photo-list>
-                    <div class="photo-gallery-placeholder" data-photo-placeholder>
-                      <span class="photo-gallery-placeholder-mark">04</span>
-                      <span data-i18n="photoPending">待补充客户现场照片</span>
-                    </div>
+                    <figure class="photo-gallery-photo-card">
+                      <div class="photo-gallery-photo-index">06</div>
+                      <img class="photo-gallery-photo" src="/assets/photo/step-04-3f-route-06.png" alt="看到大宴会厅 C 入口" data-i18n-alt="route3fPhoto06" />
+                      <figcaption data-i18n="route3fPhoto06">看到大宴会厅 C 入口</figcaption>
+                    </figure>
+                    <figure class="photo-gallery-photo-card">
+                      <div class="photo-gallery-photo-index">07</div>
+                      <img class="photo-gallery-photo" src="/assets/photo/step-04-3f-route-07.png" alt="进入大宴会厅 C" data-i18n-alt="route3fPhoto07" />
+                      <figcaption data-i18n="route3fPhoto07">进入大宴会厅 C</figcaption>
+                    </figure>
                   </div>
                 </div>
                 <label class="check-row">
